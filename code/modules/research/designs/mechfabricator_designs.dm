@@ -943,6 +943,16 @@
 	starts_unlocked = TRUE
 	category = list("Cyborg Upgrade Modules")
 
+/datum/design/borg_upgrade_security
+	name = "Cyborg Upgrade Module (Security Module)"
+	id = "borg_upgrade_security"
+	build_type = MECHFAB
+	build_path = /obj/item/borg/upgrade/security
+	materials = list(MAT_METAL=30000, MAT_GLASS=6000, MAT_GOLD=6000, MAT_URANIUM=10000)
+	construction_time = 120
+	category = list("Cyborg Upgrade Modules")
+
+
 /datum/design/borg_upgrade_hud
 	name = "Cyborg Upgrade Module (Hud Module)"
 	id = "borg_upgrade_hud"
